@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent (typeof (Animator))]
 public class Actions : MonoBehaviour {
 
-	private Animator animator;
+	Animator animator;
 
 	const int countOfDamageAnimations = 3;
 	int lastDamageAnimation = -1;
